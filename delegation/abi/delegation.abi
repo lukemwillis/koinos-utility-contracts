@@ -1,0 +1,26 @@
+{
+    "methods": {
+        "is_whitelisted": {
+            "argument": "delegation.is_whitelisted_arguments",
+            "return": "delegation.is_whitelisted_result",
+            "description": "Check whether an address is whitelisted",
+            "entry-point": "0xd95d7ac7",
+            "read-only": true
+        },
+        "add_to_whitelist": {
+            "argument": "delegation.add_to_whitelist_arguments",
+            "return": "delegation.add_to_whitelist_result",
+            "description": "Add address to whitelist for mana delegation",
+            "entry-point": "0xc9779851",
+            "read-only": false
+        },
+        "remove_from_whitelist": {
+            "argument": "delegation.remove_from_whitelist_arguments",
+            "return": "delegation.remove_from_whitelist_result",
+            "description": "Remove address from whitelist for mana delegation",
+            "entry-point": "0x8d14175a",
+            "read-only": false
+        }
+    },
+    "types": "CsgDCh9hc3NlbWJseS9wcm90by9kZWxlZ2F0aW9uLnByb3RvEgpkZWxlZ2F0aW9uGhRrb2lub3Mvb3B0aW9ucy5wcm90byI6Chhpc193aGl0ZWxpc3RlZF9hcmd1bWVudHMSHgoHYWRkcmVzcxgBIAEoDEIEgLUYBlIHYWRkcmVzcyItChVpc193aGl0ZWxpc3RlZF9yZXN1bHQSFAoFdmFsdWUYASABKAhSBXZhbHVlIjwKGmFkZF90b193aGl0ZWxpc3RfYXJndW1lbnRzEh4KB2FkZHJlc3MYASABKAxCBIC1GAZSB2FkZHJlc3MiLwoXYWRkX3RvX3doaXRlbGlzdF9yZXN1bHQSFAoFdmFsdWUYASABKAhSBXZhbHVlIkEKH3JlbW92ZV9mcm9tX3doaXRlbGlzdF9hcmd1bWVudHMSHgoHYWRkcmVzcxgBIAEoDEIEgLUYBlIHYWRkcmVzcyI0ChxyZW1vdmVfZnJvbV93aGl0ZWxpc3RfcmVzdWx0EhQKBXZhbHVlGAEgASgIUgV2YWx1ZSIoChB3aGl0ZWxpc3Rfb2JqZWN0EhQKBXZhbHVlGAEgASgIUgV2YWx1ZWIGcHJvdG8z"
+}

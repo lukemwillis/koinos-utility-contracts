@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package delegation;
+
+import "koinos/options.proto";
+
+// @description Check whether an address is whitelisted
+// @read-only true
+message is_whitelisted_arguments {
+  bytes address = 1 [(koinos.btype) = ADDRESS];
+}
+
+message is_whitelisted_result {
+  bool value = 1;
+}
+
+// @description Add address to whitelist for mana delegation
+// @read-only false
+message add_to_whitelist_arguments {
+  bytes address = 1 [(koinos.btype) = ADDRESS];
+}
+
+message add_to_whitelist_result {
+  bool value = 1;
+}
+
+// @description Remove address from whitelist for mana delegation
+// @read-only false
+message remove_from_whitelist_arguments {
+  bytes address = 1 [(koinos.btype) = ADDRESS];
+}
+
+message remove_from_whitelist_result {
+  bool value = 1;
+}
+
+message whitelist_object {
+  bool value = 1;
+}

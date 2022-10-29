@@ -1,0 +1,98 @@
+{
+    "methods": {
+        "is_whitelisted": {
+            "input": "delegation.is_whitelisted_arguments",
+            "output": "delegation.is_whitelisted_result",
+            "description": "Check whether an address is whitelisted",
+            "entryPoint": 3646782151,
+            "readOnly": true
+        },
+        "add_to_whitelist": {
+            "input": "delegation.add_to_whitelist_arguments",
+            "output": "delegation.add_to_whitelist_result",
+            "description": "Add address to whitelist for mana delegation",
+            "entryPoint": 3380058193,
+            "readOnly": false
+        },
+        "remove_from_whitelist": {
+            "input": "delegation.remove_from_whitelist_arguments",
+            "output": "delegation.remove_from_whitelist_result",
+            "description": "Remove address from whitelist for mana delegation",
+            "entryPoint": 2366904154,
+            "readOnly": false
+        }
+    },
+    "types": {
+        "nested": {
+            "delegation": {
+                "nested": {
+                    "is_whitelisted_arguments": {
+                        "fields": {
+                            "address": {
+                                "type": "bytes",
+                                "id": 1,
+                                "options": {
+                                    "(koinos.btype)": "ADDRESS"
+                                }
+                            }
+                        }
+                    },
+                    "is_whitelisted_result": {
+                        "fields": {
+                            "value": {
+                                "type": "bool",
+                                "id": 1
+                            }
+                        }
+                    },
+                    "add_to_whitelist_arguments": {
+                        "fields": {
+                            "address": {
+                                "type": "bytes",
+                                "id": 1,
+                                "options": {
+                                    "(koinos.btype)": "ADDRESS"
+                                }
+                            }
+                        }
+                    },
+                    "add_to_whitelist_result": {
+                        "fields": {
+                            "value": {
+                                "type": "bool",
+                                "id": 1
+                            }
+                        }
+                    },
+                    "remove_from_whitelist_arguments": {
+                        "fields": {
+                            "address": {
+                                "type": "bytes",
+                                "id": 1,
+                                "options": {
+                                    "(koinos.btype)": "ADDRESS"
+                                }
+                            }
+                        }
+                    },
+                    "remove_from_whitelist_result": {
+                        "fields": {
+                            "value": {
+                                "type": "bool",
+                                "id": 1
+                            }
+                        }
+                    },
+                    "whitelist_object": {
+                        "fields": {
+                            "value": {
+                                "type": "bool",
+                                "id": 1
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
