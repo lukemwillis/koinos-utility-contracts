@@ -6,7 +6,7 @@ const path = require('path');
 const DELEGATION_CONTRACT_WIF = '';
 
 const main = async () => {
-  const provider = new Provider('http://api.koinos.io:8080');
+  const provider = new Provider('https://api.koinos.io');
 
   // private key for the delegation contract
   const signer = Signer.fromWif(DELEGATION_CONTRACT_WIF);
