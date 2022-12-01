@@ -4278,19 +4278,6 @@
     i32.const 1152
     i32.store
     i32.const 1152
-    i32.const -1170278375
-    i32.const 15
-    i32.const 7
-    i32.const 2
-    call $~lib/index/__coverDeclare
-    global.get $~lib/memory/__stack_pointer
-    i32.const 0
-    i32.const 4
-    i32.const 0
-    call $~onstore
-    i32.const 1152
-    i32.store
-    i32.const 1152
     i32.const 1161675396
     i32.const 7
     i32.const 3
@@ -4304,8 +4291,8 @@
     i32.const 1152
     i32.store
     i32.const 1152
-    i32.const -432214662
-    i32.const 21
+    i32.const 380807921
+    i32.const 19
     i32.const 39
     i32.const 1
     call $~lib/index/__coverDeclare
@@ -4317,8 +4304,8 @@
     i32.const 1152
     i32.store
     i32.const 1152
-    i32.const -1139812711
-    i32.const 19
+    i32.const -1358667429
+    i32.const 17
     i32.const 3
     i32.const 0
     call $~lib/index/__coverDeclare
@@ -4330,8 +4317,8 @@
     i32.const 1152
     i32.store
     i32.const 1152
-    i32.const 2062335018
-    i32.const 28
+    i32.const -1414983828
+    i32.const 26
     i32.const 41
     i32.const 1
     call $~lib/index/__coverDeclare
@@ -4343,8 +4330,8 @@
     i32.const 1152
     i32.store
     i32.const 1152
-    i32.const 1924153341
-    i32.const 26
+    i32.const 1705298623
+    i32.const 24
     i32.const 3
     i32.const 0
     call $~lib/index/__coverDeclare
@@ -4356,8 +4343,8 @@
     i32.const 1152
     i32.store
     i32.const 1152
-    i32.const -362722759
-    i32.const 40
+    i32.const 450299824
+    i32.const 38
     i32.const 46
     i32.const 1
     call $~lib/index/__coverDeclare
@@ -4369,8 +4356,8 @@
     i32.const 1152
     i32.store
     i32.const 1152
-    i32.const -907194756
-    i32.const 38
+    i32.const -1126049474
+    i32.const 36
     i32.const 3
     i32.const 0
     call $~lib/index/__coverDeclare
@@ -4617,9 +4604,9 @@
     i32.const 2112
     i32.store
     i32.const 2112
-    i32.const -1796522930
+    i32.const -1561484725
     i32.const 23
-    i32.const 63
+    i32.const 60
     i32.const 1
     call $~lib/index/__coverDeclare
     global.get $~lib/memory/__stack_pointer

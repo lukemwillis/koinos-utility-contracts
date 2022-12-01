@@ -1,8 +1,5 @@
 import { chain, System } from "@koinos/sdk-as";
-import { Constants } from "./Constants";
 import { delegation } from "./proto/delegation";
-
-
 
 export namespace State {
   const WHITELIST_SPACE_ID = 0;
@@ -13,7 +10,7 @@ export namespace State {
     if (whitelistSpace == null) {
       whitelistSpace = new chain.object_space(
         false,
-        Constants.ContractId(),
+        System.getContractId(),
         WHITELIST_SPACE_ID
       );
     }
